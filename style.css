@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*
+.containercontact{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(220,233,224);
+}
+*/
+/* navbar start */
+.navbar{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    position: fixed;   
+}
+.containerNavbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.boxlogo, .boxmenu {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxlogo{
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+.boxlogo a{
+    text-decoration: none;
+    color: black;
+}
+.boxmenu a{
+    text-decoration: none;
+    color: black;
+}
+.boxlogo a:hover{
+    color: rgb(164,207,184);
+}
+.boxmenu a:hover{
+    color: rgb(164,207,184);
+}
+.boxmenu_ul{
+    display: flex;
+    align-items: center;
+}
+.boxmenu_li{
+    list-style: none;
+    padding: 0px 20px;
+}
+/* navbar finish */
+/* containerHomeandAbout start */
+.containerhome{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 100px;  
+}
+.imagebox{
+    width: 50%;   
+}
+.aboutbox{
+    width: 50%;
+}
+#image1{
+    width: 100%; 
+    padding: 70px; 
+}
+.containerbloglarim{
+    width: 100%;
+    padding: 0px 80px;
+}
+.bloglarimcontent{
+    background-color: #c5ecfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+/* containerBlog */
+.containerBlog{
+    width: 100%;
+    padding: 0px 80px;
+}
+.Bloglar{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    background-color:#f7f7f7 ;
+}
+.blogtext{
+    width: 60%;
+    margin: 20px;
+}
+.blogimage{
+    width: 40%;
+    margin: 20px;
+}
+#imageblog{
+    width: 100%;
+}
+/*footer start */
+footer{
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: #d0e6d9;
+}
+.containerfooter{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footercontacticon{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+}
+/*footer finish* review texare kullanabilirdim ama boyutunu ayarlayamadım /
